@@ -8,7 +8,7 @@ const App = () => {
 
   const addValue = () => {
     if (counter < max) {
-      setCounter(prevcounter => prevcounter + 1 );  //yeh question interview ka hai 
+      setCounter(counter + 1 );  //yeh question interview ka hai 
       setCounter(prevcounter => prevcounter + 4 );  //yeh question interview ka hai 
     }
   };
@@ -46,7 +46,7 @@ const App = () => {
 
       <button onClick={resetValue}>Reset Value</button>
 
-      {/* User min aur max change kar sake */}
+   ;
       <div className="flex gap-4 justify-center items-center">
         Set Min
         <input
