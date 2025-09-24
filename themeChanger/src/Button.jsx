@@ -5,7 +5,7 @@ function Button() {
   const theme = useContext(ThemeContext);
 
   return (
-    <button className={`btn ${theme}`} style={{ margin: "5px" }}>
+    <button className={`btn ${theme}`} style={{ margin: "5px" , padding: "20px"}} >
       I am {theme} button
     </button>
   );
